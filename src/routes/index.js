@@ -8,9 +8,9 @@ const fs = require('fs-extra');
 const Data = require('../models/database');
 
 cloudinary.config({ 
-    cloud_name: 'divbcloud', 
-    api_key: '924277278928562', 
-    api_secret: '2QM8WJgAbefaSL3i8zoMqX2NuPs' 
+    cloud_name: 'divccloud', 
+    api_key: '272417765462567', 
+    api_secret: 'xur0cITR4dxR26jWPeTugnOAEHc' 
   });
 
   router.post('/images/add', async (req, res) => {
